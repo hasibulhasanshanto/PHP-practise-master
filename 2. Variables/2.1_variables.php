@@ -36,6 +36,16 @@
     echo LEAVING_MESSAGE;
     echo "<br>";
 
+    ### Php predefined Constants
+    echo PHP_INT_MAX.'<br>';
+    echo PHP_PREFIX.'<br>';
+    echo PHP_OS.'<br>';
+
+    /**
+     * Refference to check more :
+     * https://www.php.net/manual/en/reserved.constants.php
+     */
+
     
     /**
      * Rules for PHP variables:
