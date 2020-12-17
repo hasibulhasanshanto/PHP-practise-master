@@ -1,6 +1,18 @@
 <!-- Basic Syntax  -->
 <?php
 // PHP code goes here
+/**
+ * What is PHP
+ * 
+ * -> PHP- PHP:Hypertext Preprocessor
+ * -> Open source general-purpose scripting language
+ * -> Server side language
+ * -> Best suited for web development
+ * -> Can be embedded into HTML
+ * -> Interpreted language
+ * 
+ */
+
 ?>
 
 <!DOCTYPE html>
