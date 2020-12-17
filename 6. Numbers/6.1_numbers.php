@@ -40,4 +40,16 @@ $p = "Hello";
 var_dump(is_numeric($p));
 echo "<br>";
 
+### number format
+$value = 1234567890;
+echo number_format($value);
+echo "<br>";
+
+/**
+ * number_format(number,decimals,decimalpoint,separator)
+ */
+echo number_format("1000000")."<br>";
+echo number_format("1000000",2)."<br>";
+echo number_format("1000000",2,",",".");
+
 ?>
