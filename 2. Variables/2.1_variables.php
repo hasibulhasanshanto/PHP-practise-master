@@ -20,6 +20,18 @@
 	# concatanation in PHP by adding .	
 	$name = "Hasibul Hasan Shanto"; 
     echo "Welcome to our website, ".$name;
+    echo "<br><br>";
+
+    ## Constant Variable Example 1:
+    define('PI', 3.1416);
+    echo(PI);
+    echo "<br>";
+
+    ## Constant Variable Example 2:
+    const LEAVING_MESSAGE = "Thank you for visiting W3Schools.com!";
+    echo LEAVING_MESSAGE;
+    echo "<br>";
+
     
     /**
      * Rules for PHP variables:
@@ -30,5 +42,5 @@
      * A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
      * Variable names are case-sensitive ($age and $AGE are two different variables)
     **/
-    
+
 ?>
