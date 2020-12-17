@@ -26,6 +26,10 @@
     define('PI', 3.1416);
     echo(PI);
     echo "<br>";
+// case insensative by adding true
+    define('ABC', 'Some text of this variable', true);
+    echo(aBc);
+    echo "<br><br>";
 
     ## Constant Variable Example 2:
     const LEAVING_MESSAGE = "Thank you for visiting W3Schools.com!";
