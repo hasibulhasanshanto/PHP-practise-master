@@ -37,7 +37,6 @@
 		$total = $x + $y + $z;
 		return $total;
 	}
-
 	function percentage($per)
 	{
 		$result = $per /3;
