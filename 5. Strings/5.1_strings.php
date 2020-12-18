@@ -35,7 +35,29 @@ echo wordwrap($str,15,"<br>\n");
 echo "<br><br>";
 $str = "Hello";
 echo md5($str);
+echo "<br><br>";
 
+## Multiline Text
+$longText = " 
+    Hello, my name is <b>Hasan</b>
+    I am <b>28</b>
+    I <b>love</b> my parents
+";
+echo ($longText).'<br>';
+echo nl2br($longText).'<br>';
 
+## Multiline Text and reserved html tags
+$longText = " 
+    Hello, my name is <b>Hasan</b>
+    I am <b>28</b>
+    I <b>love</b> my parents
+";
+echo nl2br(htmlentities($longText)).'<br>';
+echo html_entity_decode('&lt;b&gt;Hasan&lt;/b&gt;').'<br>';
+
+/**
+ * Refference to see more:
+ * https://www.w3schools.com/php/php_ref_string.asp
+ */
 
 ?>
