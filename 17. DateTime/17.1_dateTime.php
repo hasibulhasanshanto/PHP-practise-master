@@ -14,6 +14,8 @@
     ## Current date and time
     echo "The time is " . date("Y-m-d h:i:sa")."<br>";
 
+    ## Yesterday
+    echo "Yesterday was " . date("Y-m-d H:i:s", time() -60*60*24 ) . "<br>";
     ## Get Your Time Zone
     date_default_timezone_set("Asia/Dhaka");
     echo "The time is " . date("h:i:sa")."<br>";
@@ -59,6 +61,28 @@
     echo $today8 = date('H:m:s \m \i\s\ \m\o\n\t\h'). "<br>";     // 17:03:18 m is month
     echo $today9 = date("H:i:s"). "<br>";                         // 17:16:18
     echo $today10 = date("Y-m-d H:i:s"). "<br>";                   // 2001-03-10 17:16:18 (the MySQL DATETIME format)
+
+    ## Print current timestam
+    echo '<br><br>';
+    echo time();
+
+    ## Parse date
+    echo '<br><br>';
+    $parseDate = date_parse('2020-10-12 09:00:00');
+
+    echo '<pre>';
+    var_dump($parseDate);
+    echo '</pre>';
+
+    ## Parse date format
+    echo '<br><br>';
+    $dateString = 'March 10, 2001 09:00:00';
+    $parseDate2 = date_parse_from_format('F j Y H:i:s',  $dateString);
+
+    echo '<pre>';
+    var_dump($parseDate2);
+    echo '</pre>';
+
 
 
 
