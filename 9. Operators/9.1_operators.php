@@ -2,7 +2,7 @@
 	/**
      * Operators in PHP
      */
-    
+
 	$a = 10;
 	$b = 3;
 
@@ -27,10 +27,10 @@
 	$y = 5;
 
 	echo $x++ ."<br>";
-	echo $x++ ."<br>";
+	echo ++$x ."<br>";
 
 	echo $y-- ."<br>";
-	echo $y-- ."<br>";
+	echo --$y ."<br>";
 
 
 	/*
